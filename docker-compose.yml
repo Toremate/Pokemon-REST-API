@@ -1,0 +1,9 @@
+services:
+  pokedex-api:
+    build: .
+    container_name: pokedex-api
+    ports:
+      - "8080:8080"
+    environment:
+      POKEAPI_BASE_URL: https://pokeapi.co/api/v2
+    restart: unless-stopped

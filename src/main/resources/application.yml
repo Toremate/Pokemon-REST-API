@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+
+
+pokeapi:
+  base-url: ${POKEAPI_BASE_URL:https://pokeapi.co/api/v2}
