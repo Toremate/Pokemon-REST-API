@@ -28,3 +28,5 @@ mvn spring-boot:run
 ```
 
 Responses are cached in memory, so repeat requests don't hit PokeAPI again.
+
+Working on adding a database and set the project in docker.
