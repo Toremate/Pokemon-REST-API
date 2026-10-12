@@ -1,6 +1,6 @@
 # pokedex-api
 
-Small Spring Boot REST API that wraps [PokeAPI](https://pokeapi.co), packaged with Docker Compose.
+Small Spring Boot REST API that wraps [PokeAPI](https://pokeapi.co)
 
 ## Run
 
